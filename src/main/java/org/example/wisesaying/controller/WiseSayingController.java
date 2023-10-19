@@ -18,4 +18,7 @@ public class WiseSayingController {
 
 
     }
+    public void list(){
+        wiseSayingService.list();
+    }
 }

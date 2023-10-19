@@ -22,6 +22,10 @@ public class App {
                 wiseSayingController.write();
             }
 
+            if (command.equals("목록")){
+                wiseSayingController.list();
+            }
+
 
         }
     }
